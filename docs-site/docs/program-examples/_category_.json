@@ -1,6 +1,6 @@
 {
   "label": "Program Examples",
-  "position": 5,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Examples of RE2 setup, configuration, inputs and outputs"

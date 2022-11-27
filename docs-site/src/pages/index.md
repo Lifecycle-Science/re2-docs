@@ -13,6 +13,12 @@ hide_table_of_contents: true
       <div class="col-usecase">
         <h4 class="faded">For Lifecycle Marketers and Product Managers...</h4>
         <h1>Realtime Engagement and Retention Superpowers with RE2</h1>
+        <ul>
+        <li>Simple Integration with Robust API</li>
+        <li>Enterprise Scale and Support</li>
+        <li>Comprehensive Reporting and Insights</li>
+        <li>Flexible Lifecycle Program Design Features</li>
+        </ul>
         <p>
         Integrate realtime "next-best action" recommendations coordinated across all owned and operated channels to
         maximize lifecycle program return on your product and marketing campaigns
