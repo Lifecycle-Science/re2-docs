@@ -1,0 +1,8 @@
+{
+  "label": "Platform Integrations",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "RE2 integrations with a number of existing systems."
+  }
+}

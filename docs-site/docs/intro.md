@@ -2,46 +2,17 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction to RE2
 
-Let's discover **Docusaurus in less than 5 minutes**.
+At a high-level RE2 evaluates time-series event logs of your highly engaged users to identify the most relevant and engaging next steps for any customer. By default RE2 will drive users to take the actions that are most likely to increase engagement and produce long-term retention (sustained action frequency). However RE2 also allows you to also overlay specific engagement objectives such as "expand category adoption" or "increase repeat purchase frequency".
+RE2 platform consists of four products:
+Core event processing for event handling and real-time decision-making
+Low-latency API for programatic integration to managed cloud-based core service instance
+Administration utitlities for defining objetives, designing experiments, and configuring optimization metrics
+Reporting tools for action and asset performance insights
 
-## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+R2E2 does not require any PII (Personally Identifiable Information). 
+R2E2 Programs
+What is a R2E2 program?
+Example Programs

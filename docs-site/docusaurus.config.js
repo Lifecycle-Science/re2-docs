@@ -57,22 +57,42 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 're(2).live',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 're2.live',
+          src: 'img/logo-light.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Product',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/pricing',
+            position: 'left',
+            label: 'Pricing',
+          },
+          {
+            to: '/faqs',
+            position: 'left',
+            label: 'FAQs',
+          },
+          {
+            to: '/contact',
+            position: 'left',
+            label: 'Contact',
+          },
+          {
+            to: '/about',
+            position: 'left',
+            label: 'About',
+          },
+          /** {to: '/blog', label: 'Blog', position: 'left'}, */
+          {
+            href: 'https://api.re2.live',
+            label: 'Explore the API',
             position: 'right',
           },
         ],
@@ -120,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Data Baller`,
       },
       prism: {
         theme: lightCodeTheme,
