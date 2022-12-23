@@ -59,7 +59,8 @@ const config = {
         title: '',
         logo: {
           alt: 're2.live',
-          src: 'img/logo-light.png',
+          srcDark: 'img/logo-light.png',
+          src: 'img/logo-dark.png'
         },
         items: [
           {
@@ -141,9 +142,12 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} The Data Baller`,
       },
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
+        darkTheme:  require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
       },
     }),
 };

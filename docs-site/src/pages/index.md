@@ -11,10 +11,11 @@ hide_table_of_contents: true
     </div>
     <div class="col">
       <div class="col-usecase">
-        <h4 class="faded">For Lifecycle Marketers and Product Managers...</h4>
+        <h4 class="faded">Lifecycle Marketers and Product Managers...</h4>
         <h1>Realtime Engagement and Retention Superpowers with RE2</h1>
         <ul>
         <li>Simple Integration with Robust API</li>
+        <li>Improved Messaging Relevence and Overall CX</li>
         <li>Enterprise Scale and Support</li>
         <li>Comprehensive Reporting and Insights</li>
         <li>Flexible Lifecycle Program Design Features</li>
