@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction to RE2
+# Introduction 
 
 At a high-level RE2 evaluates time-series event logs of your highly engaged users to identify the most relevant and engaging next steps for any customer. By default RE2 will drive users to take the actions that are most likely to increase engagement and produce long-term retention (sustained action frequency). However RE2 also allows you to also overlay specific engagement objectives such as "expand category adoption" or "increase repeat purchase frequency".
 RE2 platform consists of four products:

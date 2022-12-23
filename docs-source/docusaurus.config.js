@@ -140,10 +140,12 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The Data Baller`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lifecycle Science`,
       },
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        disableSwitch: true
+        /* respectPrefersColorScheme: true, */
       },
       prism: {
         theme: require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
