@@ -98,36 +98,45 @@ const config = {
         ],
       },
       footer: {
+        /*
         logo: {
           alt: 'RE2 Logo',
-          src: 'img/logo-dark.png',
+          src: 'img/logo-light.png',
           href: 'https://docs.re2.live',
-        },  
+        },
+        */  
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Product',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
+              
+            ],
+          },
+          {
+            title: 'Integrations',
+            items: [
+              {
+                label: 'Shopify',
+                to: '/docs/integrations/shopify-integration',
+              },
+              
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/lifecyclescience',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/lifecyclescience',
               },
             ],
           },
@@ -135,8 +144,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'About',
+                to: '/about',
+              },
+              {
+                label: 'Terms of Use',
+                to: '/terms',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy',
               },
               {
                 label: 'GitHub',

@@ -49,7 +49,7 @@ hide_table_of_contents: true
 Connect RE2 next-best action recommendations to content and campaign delivery systems to ensure your
 customers are getting the right message at the right time.
 Helping them develop a highly-engaged customer journey.</p>
-        <a class="button md" href="/docs/integrations">Explore Integrations</a>
+        <a class="button md" href="/docs/category/integrations">Explore Integrations</a>
         <a class="button md" href="https://api.re2.live/docs">Explore the API</a>
       </div>
     </div>
