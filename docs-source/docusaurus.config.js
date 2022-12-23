@@ -98,6 +98,11 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          alt: 'RE2 Logo',
+          src: 'img/logo-dark.png',
+          href: 'https://docs.re2.live',
+        },  
         style: 'dark',
         links: [
           {
@@ -135,7 +140,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/lifecyclescience/re2-docs',
               },
             ],
           },
