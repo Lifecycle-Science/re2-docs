@@ -1,2 +1,5 @@
-# re2-docs-site
-Docusaurus stie files
+# RE2
+
+Proeuct Documentation: https://docs.re2.live
+API Documentations: https://api.re2.live/docs
+
