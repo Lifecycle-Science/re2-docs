@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -5,7 +6,19 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
+  --re2-primary: #A60F1B;
+  --re2-secondary: #F27830;
+  --re2-tirtiary: #30B1BF;
+  --re2-light: #F2EADF;
+  --re2-dark: #262323;
+
+  --button-back: var(--re2-dark);
+  --body-back: var((--re2-dark));
+
+  --ifm-heading-color: var(--re2-secondary);
+
   --ifm-color-primary: #00EBFF;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,6 +28,15 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-color-primary: var(--re2-secondary);
+  --ifm-navbar-link-hover-color: var(--re2-tirtiary);
+  --ifm-menu-color-active: var(--re2-tirtiary);
+  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-breadcrumb-color-active: var(--re2-light);
+
+  --ifm-font-family-base: 'Rubik', 'Open Sans';
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +49,18 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --button-back: var(--re2-dark);
+  --body-back: var((--re2-dark));
+
+  --ifm-color-primary: var(--re2-secondary);
+  --ifm-font-color-base: white;
+  --ifm-navbar-link-hover-color: var(--re2-tirtiary);
+  --ifm-menu-color-active: var(--re2-tirtiary);
+  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-breadcrumb-color-active: var(--re2-light);
+
+
 }
 
 /* dark mode support for images: */
@@ -39,6 +73,60 @@
 
 /* for styling with variables: https://www.w3schools.com/css/css3_variables.asp */
 
+html, body {
+  background: var(--re2-dark);
+}
+
+.hero-container img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-container {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 24px;
+}
+.hero-container p {
+  font-size: 140%;
+  padding-bottom: 32px;
+}
+.integration-container {
+  padding: 24px;
+}
+.integration-container p {
+  
+}
+.integration-logos img {
+  display:inline;
+  padding: 24px;
+  max-height: 100px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+.api-logo img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  max-height: 240px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+a {
+  color: var(--re2-tirtiary);
+}
+
+h4 {
+  color: white; 
+}
+
 mark { 
   background-color: #444444;
   color: #ffffff;
@@ -50,26 +138,17 @@ a.button {
   font-weight: bold;
   color: white;
   padding: 8px 12px;
-  border: solid 1px #fff700;
+  border: solid 1px white;
   border-radius: 12px;
   cursor: pointer;
   margin-right: 12px;
 }
 a.button:hover {
-  background-color: #fff700;
+  background-color: var(--re2-tirtiary);
+  color: white
 }
 a.button.md {
   width: 200px;
-}
-
-.hero-container {
-  margin-top: 48px;
-  margin-bottom: 48px;
-  padding: 24px;
-}
-
-.faded {
-  opacity: 50%;
 }
 
 
