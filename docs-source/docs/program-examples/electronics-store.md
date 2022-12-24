@@ -4,6 +4,12 @@ sidebar_position: 2
 
 # "Next Electronics Purchase Recommendation"
 
+:::caution
+
+This documentation is a work in progress.
+
+:::
+
 ## Overview
 
 ### Event Source

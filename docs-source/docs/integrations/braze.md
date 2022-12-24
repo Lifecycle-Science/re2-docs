@@ -1,7 +1,12 @@
 ---
 sidebar_position: 10
-title: Integration with Braze
+title: Braze Integration
 ---
 
 # RE2 Integration with Braze
 
+:::caution
+
+This documentation is a work in progress.
+
+:::

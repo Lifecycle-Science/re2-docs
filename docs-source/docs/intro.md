@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Introduction 
 
+:::caution
+
+This documentation is a work in progress.
+
+:::
+
 ## Overview
 
 RE2 is a marketing system that generates "next best action" recommendations based on first-party data and makes those recommendations

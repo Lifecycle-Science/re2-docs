@@ -5,6 +5,12 @@ title: WordPress Integration
 
 # Integrating RE2 with WordPress Sites
 
+:::caution
+
+This documentation is a work in progress.
+
+:::
+
 You can use a WordPress site to collect event data.
 
 ## Event Capture

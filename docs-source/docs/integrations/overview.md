@@ -5,6 +5,13 @@ title: Integration Overview
 
 # RE2 Integration
 
+:::caution
+
+This documentation is a work in progress.
+
+:::
+
+
 The RE2 tag is not an analytics tracker.
 The RE2 tag does not require cookies - you provide the identity key used
 

@@ -1,18 +1,24 @@
 ---
 id: contact
+hide_table_of_contents: true
 ---
 
-# Contact Us
+# Contact 
 
-Learn more about engagement and retention strategies, best practices for data management, and RE2 implementation details
-by talking to one of our experts.
+Lifecycle Science, the organization behind RE2, is based in the Greater Los Angeles area  
+and respondes to most inquiries M-F 9AM-5PM Pacific Standard Time.
 
+<table>
+<tr><td>For General Support</td><td>support@lifecyclescience.com</td></tr>
+<tr><td>For Legal Questions</td><td>legal@lifecyclescience.com</td></tr>
+<tr><td>For questions about our Privacy Policy</td><td>privacy@lifecyclescience.com</td></tr>
+<tr><td>For questions about our Terms of Use</td><td>terms@lifecyclescience.com</td></tr>
+</table>
+
+---
+
+Schedule time for an in depth discussion about your marketing needs
 <a class="button md">Talk to an Expert</a>
 
+---
 
-
-- Calendarly for "Talk to an Expert" scheduling
-- Slack channel (or Discord) for chatting
-
-For legal questions, contact legal@re2.live  
-For questions about our privacy policy, contact privacy@re2.live

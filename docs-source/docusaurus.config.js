@@ -75,11 +75,6 @@ const config = {
             label: 'Pricing',
           },
           {
-            to: '/faqs',
-            position: 'left',
-            label: 'FAQs',
-          },
-          {
             to: '/contact',
             position: 'left',
             label: 'Contact',
@@ -91,7 +86,7 @@ const config = {
           },
           /** {to: '/blog', label: 'Blog', position: 'left'}, */
           {
-            href: 'https://api.re2.live',
+            href: 'https://api.re2.live/docs',
             label: 'Explore the API',
             position: 'right',
           },

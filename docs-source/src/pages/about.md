@@ -1,8 +1,9 @@
 ---
 id: about
-displayed_sidebar: aboutSidebar
+hide_table_of_contents: true
 ---
 
-# About Us
+# About
 
-- Founded by alumni 
+RE2 is a product of LifecycleScience.com.
+

@@ -34,6 +34,7 @@
   --ifm-menu-color-active: var(--re2-tirtiary);
   --ifm-color-emphasis-300: var(--re2-secondary);
   --ifm-breadcrumb-color-active: var(--re2-light);
+  --ifm-menu-color-background-active: #333333;
 
   --ifm-font-family-base: 'Rubik', 'Open Sans';
 
@@ -174,3 +175,61 @@ a.button.md {
 .navbar__logo {
   margin-left:24px;
 }
+
+.pricing-container {
+  margin: 48px 12px 64px 12px;
+}
+.pricing-container .row {
+  flex-wrap: nowrap;
+}
+
+.pricing-container .col {
+  width:25%;
+  margin:0px 12px;
+  border-left: solid 1px var(--re2-secondary);
+  border-right: solid 1px var(--re2-secondary);
+  padding: 12px;
+}
+.pricing-container .col:first-child {
+  border-left: solid 1px #999999;
+  border-right: solid 1px #999999;
+}
+.pricing-container .price .col {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  border-bottom: solid 1px var(--re2-secondary);
+  border-radius: 0 0 12px 12px;
+}
+.pricing-container .price .col:first-child {
+  border-bottom: solid 1px #999999;
+}
+.pricing-container .headings .col {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: var(--re2-secondary);
+  border-radius: 12px 12px 0 0;
+  padding: 12px;
+}
+.pricing-container .headings .col:first-child {
+  background-color: #999999;
+}
+.pricing-container .whofor .col {
+  padding: 12px 24px;
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 120%;
+}
+.pricing-container .features .col {
+  padding: 24px;
+  font-size: 100%;
+}
+.pricing-container .summary .col {
+  color: #cccccc;
+  font-size: 90%;
+  padding: 12px 24px;
+  font-style: italic;
+}
+
+
