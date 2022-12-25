@@ -33,7 +33,7 @@ A 30-day free tial is available for any plan.
     <div class="row summary">
         <div class="col">
         <div class="col-usecase">
-            Offline processing and integrated segmentaton only
+            Offline processing and integrated segmentaton
         </div>
         </div>
         <div class="col">
@@ -83,9 +83,9 @@ A 30-day free tial is available for any plan.
             <div class="col-usecase">
                     <ul>
                     <li>1 program</li>
+                    <li>100k customers</li>
                     <li>Unlimited supported integration webhooks</li>
                     <li>500 admin API calls / day</li>
-                    <li>100k customers</li>
                     </ul>
             </div>
         </div>
@@ -93,9 +93,10 @@ A 30-day free tial is available for any plan.
             <div class="col-usecase">
                     <ul>
                     <li>5 programs</li>
+                    <li>1 million customers</li>
                     <li>Unlimited supported integration webhooks</li>
                     <li>20k real-time API calls / day</li> 
-                    <li>1 million customers</li>
+                    <li>Premium support</li>
                     </ul>
             </div>
         </div>
@@ -103,9 +104,9 @@ A 30-day free tial is available for any plan.
             <div class="col-usecase">
                 <ul>
                     <li>20 programs</li>
+                    <li>10 million customers</li>
                     <li>Unlimited supported integration webhooks</li>
                     <li>200k API calls per day</li> 
-                    <li>10 million customers</li>
                     <li>Premium support</li>
                 </ul>
             </div>
@@ -114,8 +115,8 @@ A 30-day free tial is available for any plan.
             <div class="col-usecase">
                     <ul>
                     <li>Unlimited program</li>
-                    <li>Unlimited supported integration webhooks</li>
                     <li>Unlimited customers</li>
+                    <li>Unlimited supported integration webhooks</li>
                     <li>Unlimited API calls per day</li> 
                     <li>Dedicated support team</li>
                     </ul>

@@ -75,7 +75,7 @@
 /* for styling with variables: https://www.w3schools.com/css/css3_variables.asp */
 
 html, body {
-  background: var(--re2-dark);
+  background: var(--re2-dark) !important;
 }
 .navbar {
   background-color: #333333; 
@@ -132,17 +132,13 @@ h1, h2, h3 {
   font-weight: normal;
 }
 hr {
-  background-color: var(--re2-light);
-  opacity: 25%;
+  background-color: var(--re2-light) !important;
+  opacity: 25% !important;
   margin-top: 48px;
   margin-bottom: 48px;
 }
 a {
   color: var(--re2-tirtiary);
-}
-
-h4 {
-  color: white; 
 }
 
 mark { 

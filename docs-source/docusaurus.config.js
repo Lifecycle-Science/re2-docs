@@ -55,6 +55,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '<b>RE2 is in pre-release development. View the product roadmap <a target="_blank" rel="noopener noreferrer" href="https://github.com/orgs/Lifecycle-Science/projects/1/views/1">here</a>. Sign up for updates and early access <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/eTwNcCBrPP4H9JWH8">here</a></b>',
+        backgroundColor: '#30B1BF',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       navbar: {
         title: '',
         logo: {
