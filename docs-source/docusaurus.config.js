@@ -125,7 +125,7 @@ const config = {
             items: [
               {
                 label: 'Shopify',
-                to: '/docs/integrations/shopify-integration',
+                to: '/docs/integrations/re2-shopify-app',
               },
               
             ],
