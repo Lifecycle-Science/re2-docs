@@ -10,7 +10,7 @@ hide_table_of_contents: true
         <p>Easy Integration with first-party systems and third-party Marketing Technologies for high-impact Campaign Targeting and Content Personalization
         </p>
         <a class="button md" href="/docs/intro">Learn More</a>
-        <a class="button md" href="https://calendly.com/lifecyclescience/30min">Talk to an Expert</a>
+        <a class="button md" href="https://calendly.com/darrylkanouse/re2_marketing_intro">Talk to an Expert</a>
       </div>
     </div>
     <div class="col">
@@ -75,7 +75,7 @@ Helping them develop a highly-engaged customer journey.</p>
         <p>RE2 is a powerful system that brings the right call to action for greater impact in your marketing efforts.
         </p>
         <a class="button md" href="/docs/intro">Learn More</a>
-        <a class="button md" href="https://calendly.com/lifecyclescience/30min">Talk to an Expert</a>
+        <a class="button md" href="https://calendly.com/darrylkanouse/re2_marketing_intro">Talk to an Expert</a>
       </div>
     </div>
     <div class="col">
