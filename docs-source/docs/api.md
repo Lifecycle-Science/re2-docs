@@ -1,12 +1,12 @@
 ---
-sidebar_position: 10
-title: Braze Integration
+sidebar_position: 6
 ---
 
-# RE2 Integration with Braze
+# The RE2 REST API
 
 :::caution
 
 RE2 is in pre-release development. This documentation is a work in progress.
 
 :::
+

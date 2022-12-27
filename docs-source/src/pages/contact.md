@@ -5,8 +5,7 @@ hide_table_of_contents: true
 
 # Contact 
 
-Lifecycle Science, the organization behind RE2, is based in Redondo Beach, California, US  
-and respondes to most inquiries with 1 business day, M-F 9AM-5PM Pacific Standard Time.
+Lifecycle Science, the organization behind RE2, is based in Redondo Beach, California, US.
 
 <table>
 <tr><td>For General Support</td><td>support@lifecyclescience.com</td></tr>

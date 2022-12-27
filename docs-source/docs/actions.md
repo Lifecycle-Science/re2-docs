@@ -1,12 +1,12 @@
 ---
-sidebar_position: 10
-title: Braze Integration
+sidebar_position: 2
 ---
 
-# RE2 Integration with Braze
+# Action Recommendations
 
 :::caution
 
 RE2 is in pre-release development. This documentation is a work in progress.
 
 :::
+

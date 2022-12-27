@@ -4,11 +4,11 @@ sidebar_position: 2
 title: RE2 Shopify App
 ---
 
-# Shopify Integration
+# The RE2 Shopify App
 
 :::caution
 
-This documentation is a work in progress.
+RE2 is in pre-release development. This documentation is a work in progress.
 
 :::
 

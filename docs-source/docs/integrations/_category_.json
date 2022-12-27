@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "RE2 integrations with a number of existing systems."
+    "description": "RE2 offers pre-buiilt integrations (apps and services) for both inbound and outbound data flows. RE2 also has a robust API which can be used for custom integration and development (Growth+ plans)."
   }
 }

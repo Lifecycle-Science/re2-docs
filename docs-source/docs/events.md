@@ -1,12 +1,12 @@
 ---
-sidebar_position: 10
+sidebar_position: 3
 ---
 
-# Events in RE2
+# Event Data Sourcing
 
 :::caution
 
-This documentation is a work in progress.
+RE2 is in pre-release development. This documentation is a work in progress.
 
 :::
 

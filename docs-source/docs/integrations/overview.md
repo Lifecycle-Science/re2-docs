@@ -1,24 +1,40 @@
 ---
 sidebar_position: 1
-title: Integration Overview
+title: Overview
 ---
 
-# RE2 Integration
+# RE2 Integration Overview
+
+There are two areas of integration employed by RE2:
+
+1. [**Event source integration (Inbound)**](#event-source-integration-inbound) - your product, app, storefront, or CDP
+2. [**Action recommenation integration (Outbound)**](#action-recommenation-integration-outbound) - your marketing systems, email, push, in product messaging 
+
+RE2 offers pre-buiilt integrations (apps and services) for both inbound and outbound data flows. RE2 also has a robust API which can be used for custom integration and development (Growth+ plans).
 
 :::caution
 
-This documentation is a work in progress.
+RE2 is in pre-release development. The following documentation is a work in progress.
 
 :::
 
+## Event Source Integration (Inbound)
 
-The RE2 tag is not an analytics tracker.
-The RE2 tag does not require cookies - you provide the identity key used
+:::info
+Background: [Learn more about Events in RE2](/docs/events)
+:::
 
-The RE2 Tag can either be added directly to you site, or you can deploy using Google Tag Manager.
+### Official RE2 Platform Apps (*Preferred Method*)
+
+* The Official RE2 Shopify App
+* More coming...
+
+### Integration with Google Tag Manager (GTM)
 
 
-## Direct Integration
+### Direct On-site Tagging
+
+Notes; The RE2 tag is not an analytics tracker and should not be used for UX analysis. The RE2 tag does not require cookies - you provide the identity key used
 
 For direct implementation, please add the following tag code in the `<head></head>` portion of your web page.
 ```javascript
@@ -34,8 +50,6 @@ To start capturing events, simply add the following code wherever you ...
 
 `re2log(<event_tyep>, <asset_id>, <labels>);`
 
-
-
 ```javascript
 // Track pageviews on the website
 window.addEventListener('load', function() {
@@ -43,6 +57,11 @@ window.addEventListener('load', function() {
 });
 ```
 
-## Integration with Google Tag Manager (GTM)
+## Action recommenation integration (Outbound)
 
-event?
+Official RE2 Platform Apps (Preferred Method)​
+
+The Official RE2 Shopify App
+More coming...
+
+

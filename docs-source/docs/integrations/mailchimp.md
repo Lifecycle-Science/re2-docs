@@ -7,6 +7,6 @@ title: Mailchimp Integration
 
 :::caution
 
-This documentation is a work in progress.
+RE2 is in pre-release development. This documentation is a work in progress.
 
 :::
