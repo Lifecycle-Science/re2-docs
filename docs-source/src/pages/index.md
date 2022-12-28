@@ -44,7 +44,7 @@ hide_table_of_contents: true
     </div>
         <div class="col">
       <div class="col-usecase">
-<h2>Integrates acrsoss your entire digital ecosystem for coordinated messaging at every touchpoint</h2>
+<h2>Integrates across your entire digital ecosystem for coordinated messaging at every touchpoint</h2>
 <p>Use a variety of ready-made RE2 integrations or use our robust APIs to integrate with any system. 
 Connect RE2 next-best action recommendations to content and campaign delivery systems to ensure your
 customers are getting the right message at the right time.
@@ -87,3 +87,4 @@ Helping them develop a highly-engaged customer journey.</p>
 </div>
 
 ---
+inte
