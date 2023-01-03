@@ -17,6 +17,11 @@ RE2 is in pre-release development. This documentation is a work in progress.
 
 The RE2 Shopify App allows Shopify owners to use RE2 to generate recommended customer action segments for email marketing right from the Shopify merchant admin. The RE2 Shopify App uses order history events and key site visits to inform the recommendations which are optimized for driving customer engagement.
 
+With the [RE2 Starter Plan](/pricing), Shopify store owners get:
+* Nightly segment updates using RE2's powerful predictive modeling
+* 
+
+
 ## Required Permissions
 
 The RE2 Shopify app needs certain permissions to generate actions recommendations and build segments.
@@ -72,10 +77,6 @@ These two visits are referenced `customerVisit` objecs from either the `customer
 ## Shopify Assets in RE2
 
 ## Shopify Action Recommendations
-
-```
-
-```
 
 RE2 provides Shopify merchants with three forms of customer insights for customer segmentation and campaign targeting integrated directly into Shofify stores. The three type are: (1) "Order" actions, (2) "View" actions, and (3) "Label" preferences.  These preferences are stored in customor metafields....
 
