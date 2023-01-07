@@ -1,4 +1,3 @@
-// @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -6,9 +5,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'RE2 from Lifecycle Science',
+  title: 'ActionHub.ai from Lifecycle Science',
   tagline: 'Real-time Engagmenet and Retention Engine',
-  url: 'https://lifecyclescience.com',
+  url: 'http://actionhub.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,6 +36,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          docLayoutComponent: "@theme/DocPage",
+          docItemComponent: "@theme/ApiItem" // Derived from docusaurus-theme-openapi-docs
         },
         blog: {
           showReadingTime: true,
@@ -51,14 +52,33 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: "apiDocs",
+        docsPluginId: "classic",
+        config: {
+          actionhub: { // Note: petstore key is treated as the <id> and can be used to specify an API doc instance when using CLI commands
+            specPath: "./static/openapi.json", // Path to designated spec file
+            outputDir: "docs/api", // Output directory for generated .mdx docs
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+          }
+        },
+      },
+    ]
+  ],
+  themes: ["docusaurus-theme-openapi-docs"], // Allows use of @theme/ApiItem and other components
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
         id: 'support_us',
         content:
-          '<b>RE2 is in pre-release development. View the product roadmap <a target="_blank" rel="noopener noreferrer" href="https://github.com/orgs/Lifecycle-Science/projects/1/views/1">here</a>. Sign up for updates and early access <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/eTwNcCBrPP4H9JWH8">here</a></b>',
+          '<b>ActionHub.ai is in pre-release development. View the product roadmap <a target="_blank" rel="noopener noreferrer" href="https://github.com/orgs/Lifecycle-Science/projects/1/views/1">here</a>. Sign up for updates and early access <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/eTwNcCBrPP4H9JWH8">here</a></b>',
         backgroundColor: '#30B1BF',
         textColor: '#ffffff',
         isCloseable: false,
@@ -66,16 +86,21 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 're2.live',
-          srcDark: 'img/logo-light.png',
-          src: 'img/logo-dark.png'
+          alt: 'ActionHHub.ai',
+          srcDark: 'img/logo-dark-mode.png',
+          src: 'img/logo-light-mode.png'
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Product',
+            label: 'Features',
+          },
+          {
+            to: 'docs/api/lifecycle-science-re-2-api',
+            position: 'left',
+            label: 'REST API',
           },
           {
             to: '/pricing',
@@ -111,7 +136,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Product',
+            title: 'Features',
             items: [
               {
                 label: 'Introduction',
@@ -168,12 +193,12 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Lifecycle Science`,
       },
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: true
-        /* respectPrefersColorScheme: true, */
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
       prism: {
-        theme: require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
+        theme: require('prism-react-renderer/themes/github'), // lightCodeTheme,
         darkTheme:  require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
       },
     }),

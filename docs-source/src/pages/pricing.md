@@ -1,9 +1,10 @@
 ---
 id: pricing
 hide_table_of_contents: true
+wrapperClassName: pricing-page
 ---
 
-# RE2 Pricing
+# ActionHub Pricing
 
 A 30-day free tial is available for any plan.
 

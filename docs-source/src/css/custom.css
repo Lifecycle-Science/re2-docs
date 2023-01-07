@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/**
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
@@ -29,15 +29,28 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  --ifm-color-primary: var(--re2-secondary);
-  --ifm-navbar-link-hover-color: var(--re2-tirtiary);
-  --ifm-menu-color-active: var(--re2-tirtiary);
-  --ifm-color-emphasis-300: var(--re2-secondary);
-  --ifm-breadcrumb-color-active: var(--re2-light);
-  --ifm-menu-color-background-active: #333333;
-
   --ifm-font-family-base: 'Rubik', 'Open Sans';
+  --ifm-h1-font-size: 2rem !important;
+  --ifm-navbar-link-color: #333333;
+  --ifm-navbar-link-hover-color: var(--re2-secondary);
 
+  --ifm-navbar-background-color: var(--re2-light);
+  --ifm-navbar-height: 48px;
+
+  --re2-page-bg-img: url("/img/page-bg-light-mode.png");
+
+  --ifm-color-primary: var(--re2-secondary);
+  --ifm-menu-color-active: var(--re2-secondary);
+  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-menu-color-background-active: #333333;
+  --ifm-font-color-base: var(--re2-dark);
+  --ifm-menu-color: #333333;
+  --ifm-toc-link-color: #333333;
+
+  --ifm-heading-font-family: 'Merriweather', serif;
+
+  --re2-logo-filter: grayscale(1) invert(0);
+  --ifm-background-color: white;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -51,40 +64,95 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --button-back: var(--re2-dark);
-  --body-back: var((--re2-dark));
+  --ifm-font-color-base: white;
+  --ifm-menu-color: var(--re2-light);
+  --ifm-toc-link-color: var(--re2-light);
+  --ifm-navbar-link-color: white;
+  --ifm-navbar-link-hover-color: var(--re2-secondary);
+
+  --ifm-navbar-background-color: #333333;
+  --re2-page-bg-img: url("/img/page-bg-dark-mode.png");
 
   --ifm-color-primary: var(--re2-secondary);
-  --ifm-font-color-base: white;
-  --ifm-navbar-link-hover-color: var(--re2-tirtiary);
-  --ifm-menu-color-active: var(--re2-tirtiary);
+  --ifm-menu-color-active: var(--re2-secondary);
   --ifm-color-emphasis-300: var(--re2-secondary);
-  --ifm-breadcrumb-color-active: var(--re2-light);
+  
+  --button-back: var(--re2-dark);
+  --body-back: var((--re2-dark));
+  --ifm-background-color: var(--re2-dark) !important; 
 
+  --re2-logo-filter: grayscale(1) invert(1);
 
+}
+
+.navbar__items navbar__items--right button {
+  display: none !important;
+  visibility: hidden;
+}
+.markdown > h1:first-child {
+  font-size: 2rem;
+}
+.markdown > h2 {
+  font-size: 1.5rem;
 }
 
 /* dark mode support for images: */
 /* https://docusaurus.io/docs/markdown-features/assets#github-style-themed-images */
 [data-theme='light'] img[src$='#gh-dark-mode-only'],
 [data-theme='dark'] img[src$='#gh-light-mode-only'] {
-  display: none;
+  /* display: none; */
 }
 
+.table-of-contents__link--active {
+  color: var(--re2-secondary);
+}
+.menu__list {
+  margin-top:24px;
+  /* background-color: var(--re2-dark); */
+}
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: inherit !important;
+}
+.menu__link {
+  line-height: 1.1;
+  font-weight: normal;
+  font-size: 14px;
+}
+.menu__caret {
+  padding: 0px 36px 0px 0px;
+}
+.menu__caret:before {
+  width: .8rem;
+}
+@media (min-width: 997px) {
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module {
+  border-right: 0px !important;
+  /* background-color: var(--re2-light); */
+  }
+}
 
 /* for styling with variables: https://www.w3schools.com/css/css3_variables.asp */
 
 html, body {
-  background: var(--re2-dark) !important;
+  /* background: var(--re2-light) !important; */
+  /* background: */
 }
-.navbar {
-  background-color: #333333; 
+html.index-page .main-wrapper {
+  background-image: var(--re2-page-bg-img);
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-position-y: -1400px;
+}
+.navbar__logo img {
+  height: 100%;
+  padding-top:1px;
 }
 .hero-container img {
   display: block;
-  width: 70%;
+  width: 100%;
+  padding: 48px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 @media only screen and (max-width: 900px) {
   .hero-container img {
@@ -99,16 +167,21 @@ html, body {
 .hero-container p {
   font-size: 140%;
   padding-bottom: 32px;
+  color: white;
 }
 .integration-container {
-  padding: 24px;
+  padding: 48px 24px;
+  margin-bottom: 24px;
+}
+.integration-logos {
+  text-align: center;
 }
 .integration-logos img {
   display:inline;
-  padding: 24px;
-  max-height: 100px;
-  -webkit-filter: grayscale(1) invert(1);
-  filter: grayscale(1) invert(1);
+  padding: 18px;
+  max-height: 90px;
+  -webkit-filter: var(--re2-logo-filter);
+  filter: var(--re2-logo-filter);
 }
 .api-logo img {
   display:block;
@@ -116,18 +189,25 @@ html, body {
   margin-right: auto;
   padding: 24px;
   max-height: 240px;
-  -webkit-filter: grayscale(1) invert(1);
-  filter: grayscale(1) invert(1);
+  -webkit-filter: var(--re2-logo-filter);
+  filter: var(--re2-logo-filter);
 }
 .metrics-container {
-  padding: 24px;
+  padding: 48px 24px;
+  margin-bottom: 48px;
 }
 .metrics-container li {
   font-size: 120%;
   color: var(--re2-tirtiary);
   font-weight: bold;
 }
-
+.metrics-container img {
+  display: block;
+  width: 80%;
+  padding: 12px 48px;
+  margin-left: auto;
+  margin-right: auto; 
+}
 h1, h2, h3 {
   font-weight: normal;
 }
@@ -159,7 +239,7 @@ a.button {
 }
 a.button:hover {
   background-color: var(--re2-tirtiary);
-  color: var(--re2-dark);
+  color: white;
   border-color: var(--re2-dark);
 }
 a.button.md {
@@ -226,10 +306,43 @@ PRICING PAGE
   font-size: 100%;
 }
 .pricing-container .summary .col {
-  color: #cccccc;
   font-size: 90%;
   padding: 12px 24px;
   font-style: italic;
 }
 
 
+/* left menu wrapper */
+.redocusaurus h1, .redocusaurus h2, .redocusaurus h3 {
+  color: var(--re2-secondary);
+}
+.redocusaurus .menu-content {
+  padding:20px 0px;
+  color: var(--re2-light) !important;
+  width:284px;
+  background-color: var(--ifm-background-color) !important;
+  border-right: 0px !important;
+}
+/* left menu items */
+.ilnSly, .tegOv, .fmGKyZ, .dFdXSr {
+  background-color: var(--ifm-background-color) !important;
+  padding: 4px 20px !important;
+  font-size: 14px;
+  font-family: var(--ifm-font-family-base) !important;
+  color: inherit !important;
+}
+/* left menu items active */
+.zjBaw, .gXKwyu, .lawcnt, .iyA-Djb {
+  background-color: var(--ifm-background-color) !important;
+  padding: 4px 20px !important;
+  font-size: 14px;
+  color: var(--re2-secondary) !important;
+  background-color: inherit I !important;
+  font-family: var(--ifm-font-family-base) !important;
+}
+
+
+/* right bar */
+.iCCKfq {
+  background-color: #333333 !important;
+}
