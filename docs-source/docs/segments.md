@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Building Segments
 
-RE2 allows marketers to build segments based on the action recommendations to use in targeting.
+ActionHub allows marketers to build segments based on the action recommendations to use in targeting.
 
 These segmenets can be directly integrated with other systems or downloaded for off-line distribution.
 

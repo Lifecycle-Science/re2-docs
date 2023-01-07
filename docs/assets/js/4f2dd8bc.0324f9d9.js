@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_site=self.webpackChunkdocs_site||[]).push([[8792],{81720:e=>{e.exports=JSON.parse('{"title":"Integrations","slug":"/category/integrations","permalink":"/docs/category/integrations","navigation":{"previous":{"title":"Building Segments","permalink":"/docs/segments"},"next":{"title":"Overview","permalink":"/docs/integrations/overview"}}}')}}]);

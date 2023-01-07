@@ -1,0 +1,44 @@
+---
+id: actionhub-ai-api
+title: "ActionHub.ai API"
+description: "# Introduction"
+sidebar_label: Introduction
+sidebar_position: 0
+hide_title: true
+custom_edit_url: null
+---
+
+import ApiLogo from "@theme/ApiLogo";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Export from "@theme/ApiDemoPanel/Export";
+
+<span className={"theme-doc-version-badge badge badge--secondary"}>Version: 0.0.2</span>
+
+# ActionHub.ai API
+
+
+
+
+# Introduction
+_Improve user engagement with real-time "Next Best Action" recommendations using ActionHub.ai from Lifecycle Science._
+ActionHub delivers consumer action recommendations,
+message orchestration, and content personalization in a variety of 
+marketing and product development use cases. ActionHub uses
+anonymized event logging to optimize category and asset recommendations for any
+user based on their own engagement history.
+The ActionHub API provides authenticated systems with program owners access to 
+the real-time retention and engagement engine built by Lifecycle Science. 
+
+Only two API call integrations are needed to get started:
+
+1. `[POST] /events` for logging user engagement events
+1. `[GET] /users/<user_id>/actions` to retrieve user recommended actions.
+
+
+All of the other API resources available in the ActionHub system provide optional configuration and optimization features.
+An API Key and Program ID are necessary to access the API. Contact Lifecycle Science support to obtain.
+
+
+<div style={{"marginBottom":"2rem"}}><h2 id={"authentication"} style={{"marginBottom":"1rem"}}>Authentication</h2><Tabs><TabItem label={"API Key"} value={"APIKeyHeader"}><div><table><tbody><tr><th>Security Scheme Type:</th><td>apiKey</td></tr><tr><th>Header parameter name:</th><td>access_token</td></tr></tbody></table></div></TabItem></Tabs></div><div style={{"display":"flex","flexDirection":"column","marginBottom":"var(--ifm-paragraph-margin-bottom)"}}><h3 style={{"marginBottom":"0.25rem"}}>Contact</h3><span>Darryl Kanouse: <a href={"mailto:darryl@lifecyclescience.com"}>darryl@lifecyclescience.com</a></span><span>URL: <a href={"https://lifecyclescience.com/"}>https://lifecyclescience.com/</a></span></div><div style={{"marginBottom":"var(--ifm-paragraph-margin-bottom)"}}><h3 style={{"marginBottom":"0.25rem"}}>Terms of Service</h3><a href={"https://docs.actionhub.ai/terms/"}>https://docs.actionhub.ai/terms/</a></div><div style={{"marginBottom":"var(--ifm-paragraph-margin-bottom)"}}><h3 style={{"marginBottom":"0.25rem"}}>License</h3><a href={"https://lifecyclescience.com/"}>Contact Lifecycle Science</a></div>
+      

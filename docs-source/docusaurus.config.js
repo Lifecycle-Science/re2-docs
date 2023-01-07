@@ -66,6 +66,7 @@ const config = {
               groupPathsBy: "tag",
               categoryLinkSource: "tag",
             },
+
           }
         },
       },
@@ -98,9 +99,9 @@ const config = {
             label: 'Features',
           },
           {
-            to: 'docs/api/lifecycle-science-re-2-api',
-            position: 'left',
-            label: 'REST API',
+            to: 'docs/api/actionhub-ai-api',
+            position: 'right',
+            label: 'Explore the REST API',
           },
           {
             to: '/pricing',
@@ -118,11 +119,11 @@ const config = {
             label: 'About',
           },
           /** {to: '/blog', label: 'Blog', position: 'left'}, */
-          {
-            href: 'https://api.re2.live/docs',
-            label: 'Explore the API',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://api.re2.live/docs',
+          //   label: 'Explore the API',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -201,6 +202,28 @@ const config = {
         theme: require('prism-react-renderer/themes/github'), // lightCodeTheme,
         darkTheme:  require('prism-react-renderer/themes/dracula'), // lightCodeTheme,
       },
+      languageTabs: [
+        {
+            highlight: "bash",
+            language: "curl",
+            logoClass: "bash",
+        },
+        {
+            highlight: "python",
+            language: "python",
+            logoClass: "python",
+        },
+        {
+            highlight: "go",
+            language: "go",
+            logoClass: "go",
+        },
+        {
+            highlight: "javascript",
+            language: "nodejs",
+            logoClass: "nodejs",
+        },
+      ],
     }),
 };
 

@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Contact 
 
-Lifecycle Science, the organization behind RE2, is based in Redondo Beach, California, US.
+Lifecycle Science, the organization behind ActionHub.ai, is based in Redondo Beach, California, US.
 
 <table>
 <tr><td>For General Support</td><td>support@lifecyclescience.com</td></tr>

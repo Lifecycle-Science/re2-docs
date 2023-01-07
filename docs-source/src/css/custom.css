@@ -311,38 +311,6 @@ PRICING PAGE
   font-style: italic;
 }
 
-
-/* left menu wrapper */
-.redocusaurus h1, .redocusaurus h2, .redocusaurus h3 {
-  color: var(--re2-secondary);
-}
-.redocusaurus .menu-content {
-  padding:20px 0px;
-  color: var(--re2-light) !important;
-  width:284px;
-  background-color: var(--ifm-background-color) !important;
-  border-right: 0px !important;
-}
-/* left menu items */
-.ilnSly, .tegOv, .fmGKyZ, .dFdXSr {
-  background-color: var(--ifm-background-color) !important;
-  padding: 4px 20px !important;
-  font-size: 14px;
-  font-family: var(--ifm-font-family-base) !important;
-  color: inherit !important;
-}
-/* left menu items active */
-.zjBaw, .gXKwyu, .lawcnt, .iyA-Djb {
-  background-color: var(--ifm-background-color) !important;
-  padding: 4px 20px !important;
-  font-size: 14px;
-  color: var(--re2-secondary) !important;
-  background-color: inherit I !important;
-  font-family: var(--ifm-font-family-base) !important;
-}
-
-
-/* right bar */
-.iCCKfq {
-  background-color: #333333 !important;
+.theme-api-markdown details li:hover {
+  background-color: inherit !important;
 }

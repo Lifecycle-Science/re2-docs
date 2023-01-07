@@ -3,30 +3,30 @@ sidebar_position: 1
 title: Overview
 ---
 
-# RE2 Integration Overview
+# ActionHub Integration Overview
 
-There are two areas of integration employed by RE2:
+There are two areas of integration employed by ActionHub:
 
 1. [**Event source integration (Inbound)**](#event-source-integration-inbound) - your product, app, storefront, or CDP
 2. [**Action recommenation integration (Outbound)**](#action-recommenation-integration-outbound) - your marketing systems, email, push, in product messaging 
 
-RE2 offers pre-buiilt integrations (apps and services) for both inbound and outbound data flows. RE2 also has a robust API which can be used for custom integration and development (Growth+ plans).
+ActionHub offers pre-buiilt integrations (apps and services) for both inbound and outbound data flows. ActionHub also has a robust API which can be used for custom integration and development (Growth+ plans).
 
 :::caution
 
-RE2 is in pre-release development. The following documentation is a work in progress.
+ActionHub is in pre-release development. The following documentation is a work in progress.
 
 :::
 
 ## Event Source Integration (Inbound)
 
 :::info
-Background: [Learn more about Events in RE2](/docs/events)
+Background: [Learn more about Events in ActionHub](/docs/events)
 :::
 
-### Official RE2 Platform Apps (*Preferred Method*)
+### Official ActionHub Platform Apps (*Preferred Method*)
 
-* The Official RE2 Shopify App
+* The Official ActionHub Shopify App
 * More coming...
 
 ### Integration with Google Tag Manager (GTM)
@@ -34,7 +34,7 @@ Background: [Learn more about Events in RE2](/docs/events)
 
 ### Direct On-site Tagging
 
-Notes; The RE2 tag is not an analytics tracker and should not be used for UX analysis. The RE2 tag does not require cookies - you provide the identity key used
+Notes; The ActionHub tag is not an analytics tracker and should not be used for UX analysis. The ActionHub tag does not require cookies - you provide the identity key used
 
 For direct implementation, please add the following tag code in the `<head></head>` portion of your web page.
 ```javascript
@@ -59,9 +59,9 @@ window.addEventListener('load', function() {
 
 ## Action recommenation integration (Outbound)
 
-Official RE2 Platform Apps (Preferred Method)​
+Official ActionHub Platform Apps (Preferred Method)​
 
-The Official RE2 Shopify App
+The Official ActionHub Shopify App
 More coming...
 
 

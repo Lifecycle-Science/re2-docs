@@ -50,7 +50,7 @@ Connect ActionHub next-best action recommendations to content and campaign deliv
 customers are getting the right message at the right time.
 Helping them develop a highly-engaged customer journey.</p>
         <a class="button md" href="/docs/category/integrations">Explore Integrations</a>
-        <a class="button md" href="https://api.re2.live/docs">Explore the API</a>
+        <a class="button md" href="/docs/api/actionhub-ai-api">Explore the API</a>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ Helping them develop a highly-engaged customer journey.</p>
         <li>Promote repeat purchases</li>
         <li>Bring return site visits</li>
         </ul>
-        <p>RE2 is a powerful system that brings the right call to action for greater impact in your marketing efforts.
+        <p>ActionHub is a powerful system that brings the right call to action for greater impact in your marketing efforts.
         </p>
         <a class="button md" href="/docs/intro">Learn More</a>
         <a class="button md" href="https://calendly.com/darrylkanouse/re2_marketing_intro">Talk to an Expert</a>

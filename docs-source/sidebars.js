@@ -33,7 +33,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Intetgrations",
+      label: "Integrations",
       link: {
         type: "generated-index",
       },
