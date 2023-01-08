@@ -3,11 +3,11 @@ sidebar_position: 10
 title: WordPress Integration
 ---
 
-# Integrating RE2 with WordPress Sites
+# Integrating ActionHub with WordPress Sites
 
 :::caution
 
-RE2 is in pre-release development. This documentation is a work in progress.
+ActionHub is in pre-release development. This documentation is a work in progress.
 
 :::
 

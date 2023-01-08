@@ -34,7 +34,7 @@ ActionHub does not read (or store) any Shopify or merchant customer data other t
 | Permission    | Data Accessed | Purpose   |
 | ---           | ---           | ---       |
 | `read_products` | | Products are a form of "assets" in ActionHub events. Reading products allows ActionHub to maintain assets references and asset labels used in the recommendation models. |
-| `read_orders` | `order.created_at`, `order.customer.id`,  `order.line_items.product_id`, `order.customerJourneySummary.firstVisit.landingPage`, `order.customerJourneySummary.firstVisit.occurredAt`,  `order.customerJourneySummary.lastVisit.landingPage`, `order.customerJourneySummary.lastVisit.occurredAt` | Orders and csustomer visits and event types in RE2. Reading orders and customer visists allows ActionHub to build event histories used in the recommendation models. |
+| `read_orders` | `order.created_at`, `order.customer.id`,  `order.line_items.product_id`, `order.customerJourneySummary.firstVisit.landingPage`, `order.customerJourneySummary.firstVisit.occurredAt`,  `order.customerJourneySummary.lastVisit.landingPage`, `order.customerJourneySummary.lastVisit.occurredAt` | Orders and csustomer visits and event types in ActionHub. Reading orders and customer visists allows ActionHub to build event histories used in the recommendation models. |
 | `read_customers` |  `customer.customer_id` | ActionHub creates customer metafields with action recommendations and segment identifiers. (Reading customers is required before ActionHub can update these fields.) |
 | `write_customers` | `customer.metafields` | ActionHub creates customer metafields with action recommendations and segment identifiers. Custoer metafields are limited in scope to the app that creates them. |
 

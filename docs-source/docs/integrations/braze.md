@@ -3,10 +3,10 @@ sidebar_position: 10
 title: Braze Integration
 ---
 
-# RE2 Integration with Braze
+# ActionHub Integration with Braze
 
 :::caution
 
-RE2 is in pre-release development. This documentation is a work in progress.
+ActionHub is in pre-release development. This documentation is a work in progress.
 
 :::
