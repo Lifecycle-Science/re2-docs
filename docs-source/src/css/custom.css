@@ -6,7 +6,6 @@
  */
 
 /* You can override the default Infima variables here. */
-
 :root {
   --re2-primary: #A60F1B;
   --re2-secondary: #F27830;
@@ -14,47 +13,46 @@
   --re2-light: #F2EADF;
   --re2-dark: #262323;
 
-  --button-back: var(--re2-dark);
-  --body-back: var((--re2-dark));
-
-  --ifm-heading-color: var(--re2-secondary);
+  --re2-logo-filter: grayscale(1) invert(0);
+  --re2-page-bg-img: url("/img/page-bg-light-mode.png");
 
   --ifm-color-primary: #00EBFF;
+  --ifm-color-primary: var(--re2-secondary);
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  
+  --ifm-background-color: white;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-  --ifm-font-family-base: 'Rubik', 'Open Sans';
+  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-font-color-base: var(--re2-dark);
   --ifm-h1-font-size: 2rem !important;
+  --ifm-heading-color: var(--re2-secondary);
+  --ifm-heading-font-family: 'Merriweather', serif;
+  --ifm-font-family-base: 'Rubik', 'Open Sans';
+  --ifm-toc-link-color: #333333;
+  --ifm-menu-color: #333333;
+  --ifm-menu-color-active: var(--re2-secondary);
+  --ifm-menu-color-background-active: #333333;
+  --ifm-navbar-background-color: var(--re2-light);
+  --ifm-navbar-height: 48px;
   --ifm-navbar-link-color: #333333;
   --ifm-navbar-link-hover-color: var(--re2-secondary);
 
-  --ifm-navbar-background-color: var(--re2-light);
-  --ifm-navbar-height: 48px;
+  --button-back: var(--re2-dark);
+  --body-back: var((--re2-dark));
 
-  --re2-page-bg-img: url("/img/page-bg-light-mode.png");
-
-  --ifm-color-primary: var(--re2-secondary);
-  --ifm-menu-color-active: var(--re2-secondary);
-  --ifm-color-emphasis-300: var(--re2-secondary);
-  --ifm-menu-color-background-active: #333333;
-  --ifm-font-color-base: var(--re2-dark);
-  --ifm-menu-color: #333333;
-  --ifm-toc-link-color: #333333;
-
-  --ifm-heading-font-family: 'Merriweather', serif;
-
-  --re2-logo-filter: grayscale(1) invert(0);
-  --ifm-background-color: white;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+html[data-theme='dark'] {
+  --re2-logo-filter: grayscale(1) invert(1);
+  --re2-page-bg-img: url("/img/page-bg-dark-mode.png");
+
   --ifm-color-primary: #fff700;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -62,27 +60,28 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
+  
+  --ifm-background-color: var(--re2-dark) !important; 
+  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-color-primary: var(--re2-secondary);
   --ifm-font-color-base: white;
   --ifm-menu-color: var(--re2-light);
-  --ifm-toc-link-color: var(--re2-light);
+  --ifm-menu-color-active: var(--re2-secondary);
+  --ifm-navbar-background-color: #333333;
   --ifm-navbar-link-color: white;
   --ifm-navbar-link-hover-color: var(--re2-secondary);
-
-  --ifm-navbar-background-color: #333333;
-  --re2-page-bg-img: url("/img/page-bg-dark-mode.png");
-
-  --ifm-color-primary: var(--re2-secondary);
-  --ifm-menu-color-active: var(--re2-secondary);
-  --ifm-color-emphasis-300: var(--re2-secondary);
+  --ifm-toc-link-color: var(--re2-light);
   
   --button-back: var(--re2-dark);
   --body-back: var((--re2-dark));
-  --ifm-background-color: var(--re2-dark) !important; 
 
-  --re2-logo-filter: grayscale(1) invert(1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
 
+html.index-page .main-wrapper {
+  background-image: var(--re2-page-bg-img);
+  background-repeat: no-repeat;
+  background-position-y: -1400px;
 }
 
 .navbar__items navbar__items--right button {
@@ -94,13 +93,6 @@
 }
 .markdown > h2 {
   font-size: 1.5rem;
-}
-
-/* dark mode support for images: */
-/* https://docusaurus.io/docs/markdown-features/assets#github-style-themed-images */
-[data-theme='light'] img[src$='#gh-dark-mode-only'],
-[data-theme='dark'] img[src$='#gh-light-mode-only'] {
-  /* display: none; */
 }
 
 .table-of-contents__link--active {
@@ -124,25 +116,6 @@
 .menu__caret:before {
   width: .8rem;
 }
-@media (min-width: 997px) {
-.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module {
-  border-right: 0px !important;
-  /* background-color: var(--re2-light); */
-  }
-}
-
-/* for styling with variables: https://www.w3schools.com/css/css3_variables.asp */
-
-html, body {
-  /* background: var(--re2-light) !important; */
-  /* background: */
-}
-html.index-page .main-wrapper {
-  background-image: var(--re2-page-bg-img);
-  background-repeat: no-repeat;
-  /* background-size:cover; */
-  background-position-y: -1400px;
-}
 .navbar__logo img {
   height: 100%;
   padding-top:1px;
@@ -154,11 +127,7 @@ html.index-page .main-wrapper {
   margin-left: auto;
   margin-right: auto; 
 }
-@media only screen and (max-width: 900px) {
-  .hero-container img {
-    padding-top:56px;
-  }  
-}
+
 .hero-container {
   margin-top: 48px;
   margin-bottom: 48px;
@@ -220,12 +189,10 @@ hr {
 a {
   color: var(--re2-tirtiary);
 }
-
 mark { 
   background-color: #444444;
   color: #ffffff;
 }
-
 a.button {
   background-color: var(--re2-dark);
   font-size: 16px;
@@ -313,4 +280,17 @@ PRICING PAGE
 
 .theme-api-markdown details li:hover {
   background-color: inherit !important;
+}
+
+@media (min-width: 997px) {
+  .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module {
+    border-right: 0px !important;
+    /* background-color: var(--re2-light); */
+    }
+  }
+  
+@media only screen and (max-width: 900px) {
+  .hero-container img {
+    padding-top:56px;
+  }  
 }
