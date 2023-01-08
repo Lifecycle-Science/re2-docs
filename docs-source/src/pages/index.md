@@ -47,8 +47,7 @@ wrapperClassName: index-page
 <h2>Integrates across your entire digital ecosystem for coordinated messaging at every touchpoint</h2>
 <p>Use a variety of ready-made ActionHub integrations or use our robust APIs to integrate with any system. 
 Connect ActionHub next-best action recommendations to content and campaign delivery systems to ensure your
-customers are getting the right message at the right time.
-Helping them develop a highly-engaged customer journey.</p>
+customers are getting the right message at the right time, helping them develop a highly-engaged customer journey.</p>
         <a class="button md" href="/docs/category/integrations">Explore Integrations</a>
         <a class="button md" href="/docs/api/actionhub-ai-api">Explore the API</a>
       </div>

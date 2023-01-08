@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico?v=2',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -31,6 +31,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-667JRMC2LT',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
