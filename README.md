@@ -8,3 +8,7 @@ View the full API Documentations: https://api.re2.live/docs < this has moved
 
 API docs generated using: https://github.com/PaloAltoNetworks/docusaurus-openapi-docs
 
+---
+Starting site:  
+
+`docs-site % > npx docusaurus start`
