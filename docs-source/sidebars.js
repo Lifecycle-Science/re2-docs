@@ -18,18 +18,22 @@ const sidebars = {
     {
       type: "doc",
       id: "intro",
+      label: "Overview"
     },
     {
       type: "doc",
       id: "actions",
-    },
-    {
-      type: "doc",
-      id: "events",
+      label: "Action Targeting"
     },
     {
       type: "doc",
       id: "segments",
+      label: "Action Segments"
+    },
+    {
+      type: "doc",
+      id: "realtime",
+      label: "Realtime Orchestration"
     },
     {
       type: "category",
@@ -56,6 +60,11 @@ const sidebars = {
           dirName: "program-examples",
         },
       ],
+    },
+    {
+      type: "doc",
+      id: "events",
+      label: "Event Data Sources"
     },
   ],
   actionHubApi: [

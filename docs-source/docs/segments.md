@@ -2,10 +2,11 @@
 sidebar_position: 3
 ---
 
-# Building Segments
+# Action Segments
 
-ActionHub allows marketers to build segments based on the action recommendations to use in targeting.
+:::caution
 
-These segmenets can be directly integrated with other systems or downloaded for off-line distribution.
+ActionHub.ai is in pre-release development. This documentation is a work in progress.
 
-[http://localhost:8000/docs#tag/Segmentation](http://localhost:8000/docs#tag/Segmentation)
+:::
+

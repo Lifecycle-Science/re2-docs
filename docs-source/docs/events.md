@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
-# Event Data Sourcing
+# Event Data Sources
 
 :::caution
 

@@ -2,9 +2,12 @@
 sidebar_position: 1
 ---
 
-# Introduction 
+# Overview
 
-ActionHub is a marketing system that generates "next best action" recommendations based on first-party data and makes those recommendations available to third-party systems for message orchestration and campaign targeting. Using real-time predictive modeling, ActionHub can identify and prioritize the most effective actions for a particular customer to take with the goal of increasing consistent engagement with your brand. As a centrally integrated system, ActionHub helps businesses effectively coordinate the delivery of their marketing messages across different channels and touchpoints, including email, social media, websites, and mobile apps.
+Using real-time predictive modeling, ActionHub identifies and prioritizes messaging objectives (the "best next action") for a given customer with the goal of increasing consistent engagement with your brand. ActionHub then makes these action recommendations available to owned products and third-party systems for message orchestration and campaign targeting. 
+
+
+As a centrally integrated system, ActionHub helps businesses effectively coordinate the delivery of their marketing messages across different channels and touchpoints, including email, social media, websites, and mobile apps.
 
 1. **Increase conversion rates with targeted and timely action recommendations**
 1. **Improve customer experiences by providing relevant, cohesive marketing content across all channels**

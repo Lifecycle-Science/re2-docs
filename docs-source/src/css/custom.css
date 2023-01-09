@@ -33,7 +33,6 @@
   --ifm-heading-color: var(--re2-secondary);
   --ifm-heading-font-family: 'Merriweather', serif;
   --ifm-font-family-base: 'Rubik', 'Open Sans';
-  --ifm-toc-link-color: #333333;
   --ifm-menu-color: #333333;
   --ifm-menu-color-active: var(--re2-secondary);
   --ifm-menu-color-background-active: #333333;
@@ -41,7 +40,9 @@
   --ifm-navbar-height: 48px;
   --ifm-navbar-link-color: #333333;
   --ifm-navbar-link-hover-color: var(--re2-secondary);
-
+  --ifm-table-border-color: #666666;
+  --ifm-toc-link-color: #333333;
+  
   --button-back: var(--re2-dark);
   --body-back: var((--re2-dark));
 
