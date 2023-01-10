@@ -12,7 +12,7 @@ wrapperClassName: index-page
         AI/ML-powered action recommendations.
         </p>
         <a class="button md" href="/docs/intro">Learn More</a>
-        <a class="button md" href="https://calendly.com/darrylkanouse/re2_marketing_intro">Talk to an Expert</a>
+        <a class="button md" href="https://calendly.com/darrylkanouse/actionhub_intro">Talk to an Expert</a>
       </div>
     </div>
     <div class="col">
@@ -72,7 +72,7 @@ customers are getting the right message at the right time, helping them develop 
         <p>ActionHub is a powerful system that brings the right call to action for greater impact in your marketing efforts.
         </p>
         <a class="button md" href="/docs/intro">Learn More</a>
-        <a class="button md" href="https://calendly.com/darrylkanouse/re2_marketing_intro">Talk to an Expert</a>
+        <a class="button md" href="https://calendly.com/darrylkanouse/actionhub_intro">Talk to an Expert</a>
       </div>
     </div>
     <div class="col">

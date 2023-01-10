@@ -66,6 +66,12 @@ const sidebars = {
       id: "events",
       label: "Event Data Sources"
     },
+    {
+      type: "doc",
+      id: "data-handling",
+      label: "Consuer Data Handling"
+    },
+    
   ],
   actionHubApi: [
   {
